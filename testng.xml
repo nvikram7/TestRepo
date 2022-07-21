@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+
+      <class name="com.emicalculation.pages.HomeLoanCalculationPage">
+      	<parameter name="scenario" value="HomeLoanCalculator"/>
+      </class>
+      
+      <class name="com.emicalculation.pages.CarLoanPage">
+      	<parameter name="scenario" value="CarLoanCalculator"/>
+      </class>
+      
+      <class name="com.emicalculation.pages.LoanTenureCalculatorPageUI">
+      	<parameter name="scenario" value="LoanTenureCalculator"/>
+      </class>
+      
+      <class name="com.emicalculation.pages.PersonalLoanPage">
+      	<parameter name="scenario" value="PersonalLoanCalculator"/>
+      </class>
+   
+      <class name="com.emicalculation.pages.LoanAmountCalculatorPageUI">
+      	<parameter name="scenario" value="LoanAmountCalculator"/>
+      </class>
+      
+      <class name="com.emicalculation.pages.EmiCalculatorPageUI">
+      	<parameter name="scenario" value="EmiCalculator"/>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

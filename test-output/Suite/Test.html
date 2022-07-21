@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>93/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 13 10:56:17 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>380 seconds (380156 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.captureCarLoanEmiDetails()'><b>captureCarLoanEmiDetails</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>4</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.captureCarLoanEmiDetails()'><b>captureCarLoanEmiDetails</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>4</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.capturePaymentDetails()'><b>capturePaymentDetails</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>5</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.checkEmiAmountScale()'><b>checkEmiAmountScale</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.checkEmiAmountScale()'><b>checkEmiAmountScale</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.checkFeesChargesScale()'><b>checkFeesChargesScale</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.checkFeesChargesScale()'><b>checkFeesChargesScale</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.checkFeesChargesScale()'><b>checkFeesChargesScale</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.checkInterestRateScale()'><b>checkInterestRateScale</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.checkInterestRateScale()'><b>checkInterestRateScale</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.checkInterestRateScale()'><b>checkInterestRateScale</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.checkLoanAmountAmountScale()'><b>checkLoanAmountAmountScale</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.checkLoanAmountScale()'><b>checkLoanAmountScale</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.checkLoanTenureScale()'><b>checkLoanTenureScale</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.checkLoanTenureScale()'><b>checkLoanTenureScale</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>1</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.closeApplication()'><b>closeApplication</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.emiSliderAvailibility()'><b>emiSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.emiSliderAvailibility()'><b>emiSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.emiSliderCheck()'><b>emiSliderCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.emiSliderCheck()'><b>emiSliderCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.emiTextBoxAvailibility()'><b>emiTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.emiTextBoxAvailibility()'><b>emiTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.enterEmiAmountCheck()'><b>enterEmiAmountCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.enterEmiAmountCheck()'><b>enterEmiAmountCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.enterFeesChargesCheck()'><b>enterFeesChargesCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.enterFeesChargesCheck()'><b>enterFeesChargesCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.enterFeesChargesCheck()'><b>enterFeesChargesCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.enterInterestRate()'><b>enterInterestRate</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.enterInterestRateCheck()'><b>enterInterestRateCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.enterInterestRateCheck()'><b>enterInterestRateCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.enterInterestRateCheck()'><b>enterInterestRateCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.enterLoanAmountCheck()'><b>enterLoanAmountCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.enterLoanAmountCheck()'><b>enterLoanAmountCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.enterLoanTenure()'><b>enterLoanTenure</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.enterLoanTenureCheck()'><b>enterLoanTenureCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.enterLoanTenureCheck()'><b>enterLoanTenureCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.enterPersonalLoanAmount()'><b>enterPersonalLoanAmount</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.feesChargesSliderAvailibility()'><b>feesChargesSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.feesChargesSliderAvailibility()'><b>feesChargesSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.feesChargesSliderAvailibility()'><b>feesChargesSliderAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.feesChargesSliderCheck()'><b>feesChargesSliderCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.feesChargesSliderCheck()'><b>feesChargesSliderCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.feesChargesSliderCheck()'><b>feesChargesSliderCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.feesChargesTextBoxAvailibility()'><b>feesChargesTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.feesChargesTextBoxAvailibility()'><b>feesChargesTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.feesChargesTextBoxAvailibility()'><b>feesChargesTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.geTabletData()'><b>geTabletData</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>26</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.getOneMonthData()'><b>getOneMonthData</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.getTableData()'><b>getTableData</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>202</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.getTableData()'><b>getTableData</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>9</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.interestRateSliderAvailibility()'><b>interestRateSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.interestRateSliderAvailibility()'><b>interestRateSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.interestRateSliderAvailibility()'><b>interestRateSliderAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.interestRateSliderCheck()'><b>interestRateSliderCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.interestRateSliderCheck()'><b>interestRateSliderCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.interestRateSliderCheck()'><b>interestRateSliderCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.interestRateTextBoxAvailibility()'><b>interestRateTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.interestRateTextBoxAvailibility()'><b>interestRateTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.interestRateTextBoxAvailibility()'><b>interestRateTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanAmountSliderAvailibility()'><b>loanAmountSliderAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanAmountSliderCheck()'><b>loanAmountSliderCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.loanAmountTextBoxAvailibility()'><b>loanAmountTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanAmountTextBoxAvailibility()'><b>loanAmountTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.loanAmountsliderAvailibility()'><b>loanAmountsliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.loanAmountsliderCheck()'><b>loanAmountsliderCheck</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.loanTenureSliderAvailibility()'><b>loanTenureSliderAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanTenureSliderAvailibility()'><b>loanTenureSliderAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.loanTenureSliderCheck()'><b>loanTenureSliderCheck</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanTenureSliderCheck()'><b>loanTenureSliderCheck</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.loanTenureTextBoxAvailibility()'><b>loanTenureTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.loanTenureTextBoxAvailibility()'><b>loanTenureTextBoxAvailibility</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.navigatePersonalLoanTab()'><b>navigatePersonalLoanTab</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.navigateToCarLoanTab()'><b>navigateToCarLoanTab</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.navigateToLoanAmountCal()'><b>navigateToLoanAmountCal</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>3</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.navigateToLoanAmountCal()'><b>navigateToLoanAmountCal</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>3</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.navigateToLoanTenureCal()'><b>navigateToLoanTenureCal</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>5</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.navigateToLoanTenureCal()'><b>navigateToLoanTenureCal</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>4</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.openApplication()'><b>openApplication</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>21</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.openApplication()'><b>openApplication</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>7</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanTenureCalculatorPageUI.openApplication()'><b>openApplication</b><br>Test class: com.emicalculation.pages.LoanTenureCalculatorPageUI</td>
+<td></td>
+<td>11</td>
+<td>com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811</td></tr>
+<tr>
+<td title='com.emicalculation.pages.PersonalLoanPage.openApplication()'><b>openApplication</b><br>Test class: com.emicalculation.pages.PersonalLoanPage</td>
+<td></td>
+<td>15</td>
+<td>com.emicalculation.pages.PersonalLoanPage@568ff82</td></tr>
+<tr>
+<td title='com.emicalculation.pages.LoanAmountCalculatorPageUI.openBrowser()'><b>openBrowser</b><br>Test class: com.emicalculation.pages.LoanAmountCalculatorPageUI</td>
+<td></td>
+<td>7</td>
+<td>com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560</td></tr>
+<tr>
+<td title='com.emicalculation.pages.EmiCalculatorPageUI.openBrowser()'><b>openBrowser</b><br>Test class: com.emicalculation.pages.EmiCalculatorPageUI</td>
+<td></td>
+<td>6</td>
+<td>com.emicalculation.pages.EmiCalculatorPageUI@2a266d09</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.setCarLoanAmount()'><b>setCarLoanAmount</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.setHomeLoanDetails()'><b>setHomeLoanDetails</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>5</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.HomeLoanCalculationPage.setHomeOwnerExpenses()'><b>setHomeOwnerExpenses</b><br>Test class: com.emicalculation.pages.HomeLoanCalculationPage</td>
+<td></td>
+<td>3</td>
+<td>com.emicalculation.pages.HomeLoanCalculationPage@1018bde2</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.setInterestRate()'><b>setInterestRate</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+<tr>
+<td title='com.emicalculation.pages.CarLoanPage.setLoanTenure()'><b>setLoanTenure</b><br>Test class: com.emicalculation.pages.CarLoanPage</td>
+<td></td>
+<td>0</td>
+<td>com.emicalculation.pages.CarLoanPage@65b3f4a4</td></tr>
+</table><p>
+</body>
+</html>

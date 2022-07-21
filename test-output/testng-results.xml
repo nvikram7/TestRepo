@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="98" passed="93" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T10:56:17 IST" name="Suite" finished-at="2022-07-13T11:02:37 IST" duration-ms="380156">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T10:56:17 IST" name="Test" finished-at="2022-07-13T11:02:37 IST" duration-ms="380156">
+      <class name="com.emicalculation.pages.CarLoanPage">
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:20 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T11:00:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoanCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="openApplication()[pri:0, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:20 IST" name="openApplication" finished-at="2022-07-13T11:00:28 IST" duration-ms="7395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="navigateToCarLoanTab()[pri:1, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:28 IST" name="navigateToCarLoanTab" finished-at="2022-07-13T11:00:28 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCarLoanTab -->
+        <test-method signature="setCarLoanAmount()[pri:2, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:28 IST" name="setCarLoanAmount" finished-at="2022-07-13T11:00:29 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCarLoanAmount -->
+        <test-method signature="setInterestRate()[pri:3, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:29 IST" name="setInterestRate" finished-at="2022-07-13T11:00:29 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInterestRate -->
+        <test-method signature="setLoanTenure()[pri:4, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:29 IST" name="setLoanTenure" finished-at="2022-07-13T11:00:30 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoanTenure -->
+        <test-method signature="captureCarLoanEmiDetails()[pri:5, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:30 IST" name="captureCarLoanEmiDetails" finished-at="2022-07-13T11:00:35 IST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureCarLoanEmiDetails -->
+        <test-method signature="getOneMonthData()[pri:6, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:35 IST" name="getOneMonthData" finished-at="2022-07-13T11:00:36 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneMonthData -->
+        <test-method signature="getTableData()[pri:7, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:36 IST" name="getTableData" finished-at="2022-07-13T11:00:45 IST" duration-ms="9459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method signature="closeApplication()[pri:8, instance:com.emicalculation.pages.CarLoanPage@65b3f4a4]" started-at="2022-07-13T11:00:45 IST" name="closeApplication" finished-at="2022-07-13T11:00:45 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.emicalculation.pages.CarLoanPage -->
+      <class name="com.emicalculation.pages.LoanTenureCalculatorPageUI">
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:00:45 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T11:00:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoanTenureCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="openApplication()[pri:0, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:00:45 IST" name="openApplication" finished-at="2022-07-13T11:00:57 IST" duration-ms="11472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="navigateToLoanTenureCal()[pri:1, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:00:57 IST" name="navigateToLoanTenureCal" finished-at="2022-07-13T11:01:02 IST" duration-ms="4840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoanTenureCal -->
+        <test-method signature="loanAmountTextBoxAvailibility()[pri:2, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:02 IST" name="loanAmountTextBoxAvailibility" finished-at="2022-07-13T11:01:02 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountTextBoxAvailibility -->
+        <test-method signature="loanAmountsliderAvailibility()[pri:3, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:02 IST" name="loanAmountsliderAvailibility" finished-at="2022-07-13T11:01:03 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountsliderAvailibility -->
+        <test-method signature="loanAmountsliderCheck()[pri:4, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:03 IST" name="loanAmountsliderCheck" finished-at="2022-07-13T11:01:03 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountsliderCheck -->
+        <test-method signature="enterLoanAmountCheck()[pri:5, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:03 IST" name="enterLoanAmountCheck" finished-at="2022-07-13T11:01:03 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoanAmountCheck -->
+        <test-method signature="checkLoanAmountScale()[pri:6, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:03 IST" name="checkLoanAmountScale" finished-at="2022-07-13T11:01:04 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanAmountScale -->
+        <test-method signature="emiTextBoxAvailibility()[pri:7, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:04 IST" name="emiTextBoxAvailibility" finished-at="2022-07-13T11:01:04 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiTextBoxAvailibility -->
+        <test-method signature="emiSliderAvailibility()[pri:8, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:04 IST" name="emiSliderAvailibility" finished-at="2022-07-13T11:01:04 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiSliderAvailibility -->
+        <test-method signature="emiSliderCheck()[pri:9, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:04 IST" name="emiSliderCheck" finished-at="2022-07-13T11:01:05 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiSliderCheck -->
+        <test-method signature="enterEmiAmountCheck()[pri:10, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:05 IST" name="enterEmiAmountCheck" finished-at="2022-07-13T11:01:05 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmiAmountCheck -->
+        <test-method signature="checkEmiAmountScale()[pri:11, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:05 IST" name="checkEmiAmountScale" finished-at="2022-07-13T11:01:05 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmiAmountScale -->
+        <test-method signature="interestRateTextBoxAvailibility()[pri:12, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:05 IST" name="interestRateTextBoxAvailibility" finished-at="2022-07-13T11:01:06 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateTextBoxAvailibility -->
+        <test-method signature="interestRateSliderAvailibility()[pri:13, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:06 IST" name="interestRateSliderAvailibility" finished-at="2022-07-13T11:01:06 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderAvailibility -->
+        <test-method signature="interestRateSliderCheck()[pri:14, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:06 IST" name="interestRateSliderCheck" finished-at="2022-07-13T11:01:07 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderCheck -->
+        <test-method signature="enterInterestRateCheck()[pri:15, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:07 IST" name="enterInterestRateCheck" finished-at="2022-07-13T11:01:07 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInterestRateCheck -->
+        <test-method signature="checkInterestRateScale()[pri:16, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:07 IST" name="checkInterestRateScale" finished-at="2022-07-13T11:01:08 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInterestRateScale -->
+        <test-method signature="feesChargesTextBoxAvailibility()[pri:17, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:08 IST" name="feesChargesTextBoxAvailibility" finished-at="2022-07-13T11:01:08 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesTextBoxAvailibility -->
+        <test-method signature="feesChargesSliderAvailibility()[pri:18, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:08 IST" name="feesChargesSliderAvailibility" finished-at="2022-07-13T11:01:09 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderAvailibility -->
+        <test-method signature="feesChargesSliderCheck()[pri:19, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:09 IST" name="feesChargesSliderCheck" finished-at="2022-07-13T11:01:09 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderCheck -->
+        <test-method signature="enterFeesChargesCheck()[pri:20, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:09 IST" name="enterFeesChargesCheck" finished-at="2022-07-13T11:01:09 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFeesChargesCheck -->
+        <test-method signature="checkFeesChargesScale()[pri:21, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:09 IST" name="checkFeesChargesScale" finished-at="2022-07-13T11:01:10 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFeesChargesScale -->
+        <test-method signature="closeApplication()[pri:22, instance:com.emicalculation.pages.LoanTenureCalculatorPageUI@f2ff811]" started-at="2022-07-13T11:01:10 IST" name="closeApplication" finished-at="2022-07-13T11:01:10 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.emicalculation.pages.LoanTenureCalculatorPageUI -->
+      <class name="com.emicalculation.pages.PersonalLoanPage">
+        <test-method signature="openApplication()[pri:0, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:10 IST" name="openApplication" finished-at="2022-07-13T11:01:25 IST" duration-ms="15320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:10 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T11:01:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PersonalLoanCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="navigatePersonalLoanTab()[pri:1, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:25 IST" name="navigatePersonalLoanTab" finished-at="2022-07-13T11:01:26 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatePersonalLoanTab -->
+        <test-method signature="enterPersonalLoanAmount()[pri:2, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:26 IST" name="enterPersonalLoanAmount" finished-at="2022-07-13T11:01:26 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPersonalLoanAmount -->
+        <test-method signature="enterInterestRate()[pri:3, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:26 IST" name="enterInterestRate" finished-at="2022-07-13T11:01:26 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInterestRate -->
+        <test-method signature="enterLoanTenure()[pri:4, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:26 IST" name="enterLoanTenure" finished-at="2022-07-13T11:01:27 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoanTenure -->
+        <test-method signature="captureCarLoanEmiDetails()[pri:5, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:27 IST" name="captureCarLoanEmiDetails" finished-at="2022-07-13T11:01:31 IST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureCarLoanEmiDetails -->
+        <test-method signature="geTabletData()[pri:6, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:31 IST" name="geTabletData" finished-at="2022-07-13T11:01:58 IST" duration-ms="26875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geTabletData -->
+        <test-method signature="closeApplication()[pri:7, instance:com.emicalculation.pages.PersonalLoanPage@568ff82]" started-at="2022-07-13T11:01:58 IST" name="closeApplication" finished-at="2022-07-13T11:01:58 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.emicalculation.pages.PersonalLoanPage -->
+      <class name="com.emicalculation.pages.HomeLoanCalculationPage">
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:17 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T10:56:17 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomeLoanCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="openApplication()[pri:0, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:17 IST" name="openApplication" finished-at="2022-07-13T10:56:38 IST" duration-ms="21024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="navigateToLoanTenureCal()[pri:1, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:38 IST" name="navigateToLoanTenureCal" finished-at="2022-07-13T10:56:43 IST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoanTenureCal -->
+        <test-method signature="setHomeLoanDetails()[pri:2, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:43 IST" name="setHomeLoanDetails" finished-at="2022-07-13T10:56:49 IST" duration-ms="5902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomeLoanDetails -->
+        <test-method signature="setHomeOwnerExpenses()[pri:3, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:49 IST" name="setHomeOwnerExpenses" finished-at="2022-07-13T10:56:52 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomeOwnerExpenses -->
+        <test-method signature="capturePaymentDetails()[pri:4, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:52 IST" name="capturePaymentDetails" finished-at="2022-07-13T10:56:58 IST" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturePaymentDetails -->
+        <test-method signature="getTableData()[pri:5, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T10:56:58 IST" name="getTableData" finished-at="2022-07-13T11:00:20 IST" duration-ms="202372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method signature="closeApplication()[pri:6, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T11:00:20 IST" name="closeApplication" finished-at="2022-07-13T11:00:20 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.emicalculation.pages.HomeLoanCalculationPage@1018bde2]" started-at="2022-07-13T11:02:36 IST" name="endReport" finished-at="2022-07-13T11:02:37 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.emicalculation.pages.HomeLoanCalculationPage -->
+      <class name="com.emicalculation.pages.EmiCalculatorPageUI">
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:17 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T11:02:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EmiCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="openBrowser()[pri:0, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:17 IST" name="openBrowser" finished-at="2022-07-13T11:02:23 IST" duration-ms="6045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="navigateToLoanAmountCal()[pri:1, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:23 IST" name="navigateToLoanAmountCal" finished-at="2022-07-13T11:02:27 IST" duration-ms="3855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoanAmountCal -->
+        <test-method signature="loanAmountTextBoxAvailibility()[pri:2, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:27 IST" name="loanAmountTextBoxAvailibility" finished-at="2022-07-13T11:02:28 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountTextBoxAvailibility -->
+        <test-method signature="loanAmountSliderAvailibility()[pri:3, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:28 IST" name="loanAmountSliderAvailibility" finished-at="2022-07-13T11:02:28 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountSliderAvailibility -->
+        <test-method signature="loanAmountSliderCheck()[pri:4, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:28 IST" name="loanAmountSliderCheck" finished-at="2022-07-13T11:02:28 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAmountSliderCheck -->
+        <test-method signature="enterLoanAmountCheck()[pri:5, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:28 IST" name="enterLoanAmountCheck" finished-at="2022-07-13T11:02:29 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoanAmountCheck -->
+        <test-method signature="checkLoanAmountAmountScale()[pri:6, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:29 IST" name="checkLoanAmountAmountScale" finished-at="2022-07-13T11:02:29 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanAmountAmountScale -->
+        <test-method signature="interestRateTextBoxAvailibility()[pri:7, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:29 IST" name="interestRateTextBoxAvailibility" finished-at="2022-07-13T11:02:29 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateTextBoxAvailibility -->
+        <test-method signature="interestRateSliderAvailibility()[pri:8, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:29 IST" name="interestRateSliderAvailibility" finished-at="2022-07-13T11:02:29 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderAvailibility -->
+        <test-method signature="interestRateSliderCheck()[pri:9, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:29 IST" name="interestRateSliderCheck" finished-at="2022-07-13T11:02:30 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderCheck -->
+        <test-method signature="enterInterestRateCheck()[pri:10, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:30 IST" name="enterInterestRateCheck" finished-at="2022-07-13T11:02:30 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInterestRateCheck -->
+        <test-method signature="checkInterestRateScale()[pri:11, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:30 IST" name="checkInterestRateScale" finished-at="2022-07-13T11:02:31 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInterestRateScale -->
+        <test-method signature="loanTenureTextBoxAvailibility()[pri:12, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:31 IST" name="loanTenureTextBoxAvailibility" finished-at="2022-07-13T11:02:31 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureTextBoxAvailibility -->
+        <test-method signature="loanTenureSliderAvailibility()[pri:13, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:31 IST" name="loanTenureSliderAvailibility" finished-at="2022-07-13T11:02:32 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureSliderAvailibility -->
+        <test-method signature="loanTenureSliderCheck()[pri:14, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:32 IST" name="loanTenureSliderCheck" finished-at="2022-07-13T11:02:32 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureSliderCheck -->
+        <test-method signature="enterLoanTenureCheck()[pri:15, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:32 IST" name="enterLoanTenureCheck" finished-at="2022-07-13T11:02:33 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoanTenureCheck -->
+        <test-method signature="checkLoanTenureScale()[pri:16, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:33 IST" name="checkLoanTenureScale" finished-at="2022-07-13T11:02:34 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanTenureScale -->
+        <test-method signature="feesChargesTextBoxAvailibility()[pri:17, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:34 IST" name="feesChargesTextBoxAvailibility" finished-at="2022-07-13T11:02:34 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesTextBoxAvailibility -->
+        <test-method signature="feesChargesSliderAvailibility()[pri:18, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:34 IST" name="feesChargesSliderAvailibility" finished-at="2022-07-13T11:02:34 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderAvailibility -->
+        <test-method signature="feesChargesSliderCheck()[pri:19, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:34 IST" name="feesChargesSliderCheck" finished-at="2022-07-13T11:02:35 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderCheck -->
+        <test-method signature="enterFeesChargesCheck()[pri:20, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:35 IST" name="enterFeesChargesCheck" finished-at="2022-07-13T11:02:35 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFeesChargesCheck -->
+        <test-method signature="checkFeesChargesScale()[pri:21, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:35 IST" name="checkFeesChargesScale" finished-at="2022-07-13T11:02:36 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFeesChargesScale -->
+        <test-method signature="closeApplication()[pri:22, instance:com.emicalculation.pages.EmiCalculatorPageUI@2a266d09]" started-at="2022-07-13T11:02:36 IST" name="closeApplication" finished-at="2022-07-13T11:02:36 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.emicalculation.pages.EmiCalculatorPageUI -->
+      <class name="com.emicalculation.pages.LoanAmountCalculatorPageUI">
+        <test-method is-config="true" signature="ssDirectoryForEachTest(java.lang.String)[pri:0, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:01:58 IST" name="ssDirectoryForEachTest" finished-at="2022-07-13T11:01:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoanAmountCalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssDirectoryForEachTest -->
+        <test-method signature="openBrowser()[pri:0, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:01:58 IST" name="openBrowser" finished-at="2022-07-13T11:02:06 IST" duration-ms="7243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="navigateToLoanAmountCal()[pri:1, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:06 IST" name="navigateToLoanAmountCal" finished-at="2022-07-13T11:02:09 IST" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoanAmountCal -->
+        <test-method signature="emiTextBoxAvailibility()[pri:2, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:09 IST" name="emiTextBoxAvailibility" finished-at="2022-07-13T11:02:10 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiTextBoxAvailibility -->
+        <test-method signature="emiSliderAvailibility()[pri:3, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:10 IST" name="emiSliderAvailibility" finished-at="2022-07-13T11:02:10 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiSliderAvailibility -->
+        <test-method signature="emiSliderCheck()[pri:4, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:10 IST" name="emiSliderCheck" finished-at="2022-07-13T11:02:10 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiSliderCheck -->
+        <test-method signature="enterEmiAmountCheck()[pri:5, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:10 IST" name="enterEmiAmountCheck" finished-at="2022-07-13T11:02:11 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmiAmountCheck -->
+        <test-method signature="checkEmiAmountScale()[pri:6, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:11 IST" name="checkEmiAmountScale" finished-at="2022-07-13T11:02:11 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmiAmountScale -->
+        <test-method signature="interestRateTextBoxAvailibility()[pri:7, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:11 IST" name="interestRateTextBoxAvailibility" finished-at="2022-07-13T11:02:11 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateTextBoxAvailibility -->
+        <test-method signature="interestRateSliderAvailibility()[pri:8, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:11 IST" name="interestRateSliderAvailibility" finished-at="2022-07-13T11:02:12 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderAvailibility -->
+        <test-method signature="interestRateSliderCheck()[pri:9, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:12 IST" name="interestRateSliderCheck" finished-at="2022-07-13T11:02:12 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestRateSliderCheck -->
+        <test-method signature="enterInterestRateCheck()[pri:10, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:12 IST" name="enterInterestRateCheck" finished-at="2022-07-13T11:02:12 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInterestRateCheck -->
+        <test-method signature="checkInterestRateScale()[pri:11, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:12 IST" name="checkInterestRateScale" finished-at="2022-07-13T11:02:13 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInterestRateScale -->
+        <test-method signature="loanTenureTextBoxAvailibility()[pri:12, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:13 IST" name="loanTenureTextBoxAvailibility" finished-at="2022-07-13T11:02:13 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureTextBoxAvailibility -->
+        <test-method signature="loanTenureSliderAvailibility()[pri:13, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:13 IST" name="loanTenureSliderAvailibility" finished-at="2022-07-13T11:02:14 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureSliderAvailibility -->
+        <test-method signature="loanTenureSliderCheck()[pri:14, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:14 IST" name="loanTenureSliderCheck" finished-at="2022-07-13T11:02:14 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTenureSliderCheck -->
+        <test-method signature="enterLoanTenureCheck()[pri:15, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:14 IST" name="enterLoanTenureCheck" finished-at="2022-07-13T11:02:14 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoanTenureCheck -->
+        <test-method signature="checkLoanTenureScale()[pri:16, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:14 IST" name="checkLoanTenureScale" finished-at="2022-07-13T11:02:15 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanTenureScale -->
+        <test-method signature="feesChargesTextBoxAvailibility()[pri:17, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:15 IST" name="feesChargesTextBoxAvailibility" finished-at="2022-07-13T11:02:16 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesTextBoxAvailibility -->
+        <test-method signature="feesChargesSliderAvailibility()[pri:18, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:16 IST" name="feesChargesSliderAvailibility" finished-at="2022-07-13T11:02:16 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderAvailibility -->
+        <test-method signature="feesChargesSliderCheck()[pri:19, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:16 IST" name="feesChargesSliderCheck" finished-at="2022-07-13T11:02:16 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesChargesSliderCheck -->
+        <test-method signature="enterFeesChargesCheck()[pri:20, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:16 IST" name="enterFeesChargesCheck" finished-at="2022-07-13T11:02:17 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFeesChargesCheck -->
+        <test-method signature="checkFeesChargesScale()[pri:21, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:17 IST" name="checkFeesChargesScale" finished-at="2022-07-13T11:02:17 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFeesChargesScale -->
+        <test-method signature="closeApplication()[pri:22, instance:com.emicalculation.pages.LoanAmountCalculatorPageUI@50caa560]" started-at="2022-07-13T11:02:17 IST" name="closeApplication" finished-at="2022-07-13T11:02:17 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.emicalculation.pages.LoanAmountCalculatorPageUI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
